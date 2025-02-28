@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
 
 
+#using binomial distribution 
 get_ipython().system('pip install numpy')
 import numpy as np 
 n_users = 1000  
@@ -19,7 +19,7 @@ print(f"Click-Through Rate (CTR): {ctr:.2%}")
 
 # In[3]:
 
-
+#Using binomial and bernoulli distribution 
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -72,13 +72,7 @@ cm = confusion_matrix(y_test, y_pred_rounded)
 print("\nConfusion Matrix:\n", cm)
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
 
 
 
